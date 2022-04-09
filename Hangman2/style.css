@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://image.roku.com/blog/wp-content/uploads/2020/07/Live_Sports_graphic_1200x628.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#head{
+    color: white;
+}
+
+.img{
+
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-left: 34%;
+}
+
+.text{
+    font-size:x-large;
+    color: white;
+
+}
+
+hr{
+    background-color: white;
+    height: 1px;
+    width: 25%;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Hangman</title>
+</head>
+
+<body>
+
+<div class="container">
+  <h1 class="text-center" id="head">Hangman</h1>
+  <div class="float-right text">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+  <div class="text-center">
+    <br>
+    <div class="img">
+    <img id='hangmanPic' src="../img/0.jpg" alt="">
+  </div>
+    <p class="text">Guess the Type of Sports:</p><hr>
+    <p id="wordSpotlight" class="text">The word to be guessed goes here</p>
+    <div id="keyboard" class="text"></div>
+    <button class="btn btn-warning" onClick="reset()">Reset</button>
+  </div> 
+
+</div>
+
+<script src='./js/hangman.js'></script>
+</body>
+<script src="./app.js"></script>
+</html>
